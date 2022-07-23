@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27%22%22');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27');
 
 * {
     font-family: 'Open Sans', 'sans-serif';
@@ -8,11 +8,12 @@
 body {
     margin: 0;
 }
+
 .main-cnt {
     border: 1px solid red;
     min-width: 44%;
     position: absolute;
-    top: 50% ;
-    left: 50% ;
+    top: 50%;
+    left: 50%;
     transform: translate(-50.1%, -50.1%);
 }
