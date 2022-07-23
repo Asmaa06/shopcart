@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
 
 * {
     font-family: 'Open Sans', 'sans-serif';
@@ -16,4 +17,39 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50.1%, -50.1%);
+    padding: 64px;
+    box-sizing: border-box;
+}
+
+.sub-cnt {
+    margin: 16px 0;
+}
+.heading {
+    font-family: 'Mali';
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+.label {
+    font-size: 13px;
+}
+.cmb-box,
+.line-edit {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    height: 28px;
+    min-width: 96px;
+    padding: 0 7.5px;
+    margin: 2px 0;
+}
+.btn {
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    height: 28px;
+    min-width: 300px;
+    padding: 0 17.5px;
 }
